@@ -37,7 +37,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
-
+console.log(firebaseApp);
 // Initialize Firebase Providers to sign in
 const googleProvider = new GoogleAuthProvider();
 const facebookProvider = new FacebookAuthProvider();
